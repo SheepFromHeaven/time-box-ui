@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="uk-margin-bottom">
+      <h1>Time-Cube</h1>
+      <a href="qr.html" class="uk-icon-link qr" uk-icon="icon: link; ratio: 3"></a>
+    </header>
+    <div class="uk-container">
+      <h2>Projects in cube</h2>
+      <ul class="uk-sortable uk-container" uk-sortable="group: projects">
+          <li class="uk-card uk-card-default uk-card-body project-item">
+            Projekt 1
+            <input type="color" name="" value="#FF0000">
+          </li>
+          <li class="uk-card uk-card-default uk-card-body project-item">
+            Projekt 2
+            <input type="color" name="" value="#00CBFF">
+          </li>
+          <li class="uk-card uk-card-default uk-card-body project-item">
+            Projekt 3
+            <input type="color" name="" value="#00FF94">
+          </li>
+          <li class="uk-card uk-card-default uk-card-body project-item">
+            Projekt 4
+            <input type="color" name="" value="#EEFF00">
+          </li>
+      </ul>
+
+      <h2>Other Projects</h2>
+      <ul class="uk-sortable uk-container" uk-sortable="group: projects">
+        <li class="uk-card uk-card-default uk-card-body project-item">
+          Projekt 5
+          <input type="color" name="" value="#FF6600">
+        </li>
+        <li class="uk-card uk-card-default uk-card-body project-item">
+          Projekt 6
+          <input type="color" name="" value="">
+        </li>
+        <li class="uk-card uk-card-default uk-card-body project-item">
+          Projekt 7
+          <input type="color" name="" value="">
+        </li>
+        <li class="uk-card uk-card-default uk-card-body project-item">
+          Projekt 8
+          <input type="color" name="" value="">
+        </li>
+      </ul>
+
+<div class="color-picker">
+  <canvas class="main"></canvas>
+  <canvas class="spectrum"></canvas>
+</div>
+    </div>
+    <script src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
+    <script src="js/uikit.min.js" charset="utf-8"></script>
+  </body>
+</html>

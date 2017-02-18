@@ -1,0 +1,67 @@
+body {
+  height: 100vh;
+  background-color: #dc8e00;
+  color: white;
+}
+
+h1, h2 {
+  color: white;
+}
+
+.full-height {
+  height: 100%;
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background-color: orange;
+}
+
+header h1 {
+  display: inline-block;
+  margin: 20px auto;
+}
+
+header .qr {
+  float: right;
+  margin: 15px 15px 0 0;
+  color: white !important;
+}
+header .back {
+  float: left;
+  margin: 15px 0 0 15px;
+  color: white !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.project-item {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.project-item input {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 33%;
+  border: none;
+  background-color: transparent;
+}
+
+.project-item input:focus {
+  outline: none;
+}
+
+#outdiv {
+  width: 100%;
+}
+
+#outdiv video {
+  width: 100%;
+}
